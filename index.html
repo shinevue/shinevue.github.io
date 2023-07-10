@@ -816,13 +816,14 @@
           <div class="col-md-12">
             <div class="contact_form">
               <div id="message"></div>
-              <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <form id="contactForm" name="sentMessage" novalidate="novalidate" action="mailto:shine401020@gmail.com" method="post" enctype="text/plain">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
                       <input
                         class="form-control"
                         id="name"
+                        name="name"
                         type="text"
                         placeholder="Your Name"
                         required="required"
@@ -834,6 +835,7 @@
                       <input
                         class="form-control"
                         id="email"
+                        name="email"
                         type="email"
                         placeholder="Your Email"
                         required="required"
@@ -845,6 +847,7 @@
                       <input
                         class="form-control"
                         id="phone"
+                        name="phone"
                         type="tel"
                         placeholder="Your Phone"
                         required="required"
@@ -858,6 +861,7 @@
                       <textarea
                         class="form-control"
                         id="message"
+                        name="message"
                         placeholder="Your Message"
                         required="required"
                         data-validation-required-message="Please enter a message."
