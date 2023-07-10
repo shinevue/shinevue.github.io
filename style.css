@@ -679,6 +679,7 @@ xclip
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+    height: 150px;
 }
 .services-inner-box::before {
 	content: "";
